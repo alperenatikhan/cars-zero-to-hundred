@@ -23,7 +23,10 @@ export default function App() {
 
   return (
     <div>
-      <h1>Zero To Hundred</h1>
+      <nav className="text-center">
+      <h1>0 to 100 </h1>
+      <h3> <strong> Less than 3 seconds! </strong> </h3>
+      </nav>
 
       <div className="container">
         <div className="row" style={{display:"flex", flexDirection:"row", justifyContent:"center", alignItems:"space-around"}} >
