@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './style.css';
 import CarCard from './CarCard.js';
 import Loader from 'react-js-loader';
-import FadeIn from 'react-fade-in';
+
 
 export default function App() {
   let [carList, setCarList] = useState(false);
@@ -26,7 +26,7 @@ export default function App() {
       <h1>Zero To Hundred</h1>
 
       <div className="container">
-        <div className="row">
+        <div className="row" style={{display:"flex", flexDirection:"row", justifyContent:"center", alignItems:"space-around"}} >
           {carList ? (
               carList.map(item => <CarCard item={item} key={item.modelName} />)
           
