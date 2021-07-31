@@ -3,14 +3,29 @@ p {
   font-family: Lato;
 }
 
-nav{
-background-color:orangered;
-height:15vh;
-opacity: 0.7;
-background-image:  repeating-linear-gradient(45deg, #0e0d0d 25%, transparent 25%, transparent 75%, #0e0d0d 75%, #0e0d0d), repeating-linear-gradient(45deg, #0e0d0d 25%, #db2d1a 25%, #db2d1a 75%, #0e0d0d 75%, #0e0d0d);
-background-position: 0 0, 28px 28px;
-background-size: 56px 56px;
-color:white;
+nav {
+  background-color: orangered;
+  height: 20vh;
+  opacity: 0.7;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #0e0d0d 25%,
+      transparent 25%,
+      transparent 75%,
+      #0e0d0d 75%,
+      #0e0d0d
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #0e0d0d 25%,
+      #db2d1a 25%,
+      #db2d1a 75%,
+      #0e0d0d 75%,
+      #0e0d0d
+    );
+  background-position: 0 0, 28px 28px;
+  background-size: 56px 56px;
+  color: white;
 }
 
 img {
